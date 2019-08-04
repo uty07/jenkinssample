@@ -70,6 +70,30 @@
         </plugins>
     </build>
 
+
+
+
+
+<repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/DEbOZgXqkaUSA89uwyMp/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/z9B5TlKUDEUEG1U5MMrR/</url>
+        </repository>
+    </distributionManagement>
+
+
+
+
+
+
+
 </project>
   
   
@@ -77,5 +101,3 @@
   
   
   
-  
-</project>
